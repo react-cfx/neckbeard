@@ -4,7 +4,7 @@ import React, { Component } from 'react'
  * BlockQuote
  */
 const BlockQuote = ({ children }) => (
-    <blockquote className={ nb("bg3 bc2 pa2 ft3 ls1 br3 mb2 tcw xbrdr sm-lh10") }>{ children }</blockquote>
+    <blockquote { ...nb("bg3 bc2 pa2 ft3 ls1 br3 mb2 tcw xbrdr sm-lh10") }>{ children }</blockquote>
 )
 
 export default BlockQuote

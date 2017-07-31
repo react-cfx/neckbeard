@@ -19,23 +19,23 @@ export default function spacing({ helpers: { spacing: { limit, incrementBy, resp
     }
     selectors["mh05"] = {
         "margin-left": "0.5rem",
-        "margin-right": "0.5rem",
+        "marginRight": "0.5rem",
     }
     selectors["mv05"] = {
-        "margin-top": "0.5rem",
-        "margin-bottom": "0.5rem",
+        "marginTop": "0.5rem",
+        "marginBottom": "0.5rem",
     }
     selectors["ml05"] = {
         "margin-left": "0.5rem"
     }
     selectors["mr05"] = {
-        "margin-right": "0.5rem"
+        "marginRight": "0.5rem"
     }
     selectors["mb05"] = {
-        "margin-bottom": "0.5rem"
+        "marginBottom": "0.5rem"
     }
     selectors["mt05"] = {
-        "margin-top": "0.5rem"
+        "marginTop": "0.5rem"
     }
 
     for (let x = incrementBy; x <= limit; x += incrementBy) {
@@ -44,45 +44,45 @@ export default function spacing({ helpers: { spacing: { limit, incrementBy, resp
         }
         selectors[`mh${ x }`] = {
             "margin-left": `${ x * incrementBy }rem`,
-            "margin-right": `${ x * incrementBy }rem`
+            "marginRight": `${ x * incrementBy }rem`
         }
         selectors[`mv${ x }`] = {
-            "margin-top": `${ x * incrementBy }rem`,
-            "margin-bottom": `${ x * incrementBy }rem`
+            "marginTop": `${ x * incrementBy }rem`,
+            "marginBottom": `${ x * incrementBy }rem`
         }
         selectors[`ml${ x }`] = {
             "margin-left": `${ x * incrementBy }rem`
         }
         selectors[`mr${ x }`] = {
-            "margin-right": `${ x * incrementBy }rem`
+            "marginRight": `${ x * incrementBy }rem`
         }
         selectors[`mt${ x }`] = {
-            "margin-top": `${ x * incrementBy }rem`
+            "marginTop": `${ x * incrementBy }rem`
         }
         selectors[`mb${ x }`] = {
-            "margin-bottom": `${ x * incrementBy }rem`
+            "marginBottom": `${ x * incrementBy }rem`
         }
 
         // Remove Margin
         selectors[`xmv`] = {
-            "margin-top": "0",
-            "margin-bottom": "0"
+            "marginTop": "0",
+            "marginBottom": "0"
         }
         selectors[`xmh`] = {
-            "margin-left": "0",
-            "margin-right": "0"
+            "marginLeft": "0",
+            "marginRight": "0"
         }
         selectors[`xmt`] = {
-            "margin-top": "0"
+            "marginTop": "0"
         }
         selectors[`xmb`] = {
-            "margin-bottom": "0"
+            "marginBottom": "0"
         }
         selectors[`xml`] = {
-            "margin-left": "0"
+            "marginLeft": "0"
         }
         selectors[`xmr`] = {
-            "margin-right": "0"
+            "marginRight": "0"
         }
     }
 
@@ -93,70 +93,70 @@ export default function spacing({ helpers: { spacing: { limit, incrementBy, resp
         padding: "0.5rem"
     }
     selectors["ph05"] = {
-        "padding-left": "0.5rem",
-        "padding-right": "0.5rem",
+        "paddingLeft": "0.5rem",
+        "paddingRight": "0.5rem",
     }
     selectors["pv05"] = {
-        "padding-top": "0.5rem",
-        "padding-bottom": "0.5rem",
+        "paddingTop": "0.5rem",
+        "paddingBottom": "0.5rem",
     }
     selectors["pl05"] = {
-        "padding-left": "0.5rem"
+        "paddingLeft": "0.5rem"
     }
     selectors["pr05"] = {
-        "padding-right": "0.5rem"
+        "paddingRight": "0.5rem"
     }
     selectors["pb05"] = {
-        "padding-bottom": "0.5rem"
+        "paddingBottom": "0.5rem"
     }
     selectors["pt05"] = {
-        "padding-top": "0.5rem"
+        "paddingTop": "0.5rem"
     }
     for (let x = 1; x <= limit; x++) {
         selectors[`pa${ x }`] = {
             "padding": `${ x * incrementBy }rem`,
         }
         selectors[`ph${ x }`] = {
-            "padding-left": `${ x * incrementBy }rem`,
-            "padding-right": `${ x * incrementBy }rem`
+            "paddingLeft": `${ x * incrementBy }rem`,
+            "paddingRight": `${ x * incrementBy }rem`
         }
         selectors[`pv${ x }`] = {
-            "padding-top": `${ x * incrementBy }rem`,
-            "padding-bottom": `${ x * incrementBy }rem`
+            "paddingTop": `${ x * incrementBy }rem`,
+            "paddingBottom": `${ x * incrementBy }rem`
         }
         selectors[`pl${ x }`] = {
-            "padding-left": `${ x * incrementBy }rem`
+            "paddingLeft": `${ x * incrementBy }rem`
         }
         selectors[`pr${ x }`] = {
-            "padding-right": `${ x * incrementBy }rem`
+            "paddingRight": `${ x * incrementBy }rem`
         }
         selectors[`pt${ x }`] = {
-            "padding-top": `${ x * incrementBy }rem`
+            "paddingTop": `${ x * incrementBy }rem`
         }
         selectors[`pb${ x }`] = {
-            "padding-bottom": `${ x * incrementBy }rem`
+            "paddingBottom": `${ x * incrementBy }rem`
         }
 
         // Remove Padding
         selectors[`xpv`] = {
-            "padding-top": "0",
-            "padding-bottom": "0"
+            "paddingTop": "0",
+            "paddingBottom": "0"
         }
         selectors[`xph`] = {
-            "padding-left": "0",
-            "padding-right": "0"
+            "paddingLeft": "0",
+            "paddingRight": "0"
         }
         selectors[`xpt`] = {
-            "padding-top": "0"
+            "paddingTop": "0"
         }
         selectors[`xpb`] = {
-            "padding-bottom": "0"
+            "paddingBottom": "0"
         }
         selectors[`xpl`] = {
-            "padding-left": "0"
+            "paddingLeft": "0"
         }
         selectors[`xpr`] = {
-            "padding-right": "0"
+            "paddingRight": "0"
         }
     }
 

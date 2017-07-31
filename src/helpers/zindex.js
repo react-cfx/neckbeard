@@ -17,7 +17,7 @@ export default function zindex({ helpers: { zIndex: { limit, incrementBy, respon
      */
     for (let x = 1; x <= limit; x++) {
         selectors[`zi${ x }`] = {
-            "z-index": `${ x }`
+            "zIndex": `${ x }`
         }
     }
 

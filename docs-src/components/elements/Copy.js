@@ -13,7 +13,7 @@ const Copy = ({ children }) => {
         ...nb.mb2
     }
 
-    return <div className={ nb(text) }>{ children }</div>
+    return <div { ...nb(text) }>{ children }</div>
 }
 
 export default Copy

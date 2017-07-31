@@ -9,6 +9,7 @@
   "devDependencies": {
     "aphrodite": "~1.0.0",
     "autoprefixer": "^6.4.1",
+    "babel-core": "^6.25.0",
     "babel-eslint": "~7.0.0",
     "babel-loader": "~6.2.4",
     "babel-plugin-add-module-exports": "~0.2.1",
@@ -18,6 +19,7 @@
     "babel-preset-stage-0": "~6.16.0",
     "chai": "^3.5.0",
     "file-loader": "~0.9.0",
+    "glamor": "^2.20.37",
     "gulp": "~3.9.1",
     "gulp-clean-css": "^2.0.12",
     "gulp-file": "~0.3.0",
@@ -37,7 +39,7 @@
     "webpack-dev-server": "^1.15.1"
   },
   "scripts": {
-    "start": "webpack-dev-server --config='webpack.config.docs.js' --inline --history-api-fallback --hot",
+    "start": "webpack-dev-server --host 0.0.0.0 --config='webpack.config.docs.js' --inline --history-api-fallback --hot",
     "build:docs": "webpack --config='webpack.config.docs.js'",
     "build": "webpack && gulp css",
     "test": "NODE_ENV=test mocha --compilers js:babel-register --recursive src/tests",

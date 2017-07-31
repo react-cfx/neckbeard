@@ -10,7 +10,7 @@ const Code = ({ children, type = "gray" }) => {
     }
 
     return (
-        <code className={ nb(classes[type]) }>{ children }</code>
+        <code { ...nb(classes[type]) }>{ children }</code>
     )
 }
 

@@ -16,7 +16,7 @@ export default function letterSpacing({ helpers: { letterSpacing: { limit, incre
      */
     for (let x = 1; x <= limit; x++) {
         selectors[`ls${ x }`] = {
-            "letter-spacing": `${ x * incrementBy }rem`
+            "letterSpacing": `${ x * incrementBy }rem`
         }
     }
 

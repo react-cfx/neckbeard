@@ -21,28 +21,28 @@ export default function border({ helpers: { border: { limit, incrementBy, respon
 
     for (let x = 1; x <= limit; x++) {
         selectors[`brdr${ x }`] = {
-            "border-style": "solid",
-            "border-width": `${ x }px`,
+            "borderStyle": "solid",
+            "borderWidth": `${ x }px`,
         }
 
         selectors[`brdr${ x }--top`] = {
-            "border-top-style": "solid",
-            "border-top-width": `${ x }px`,
+            "borderTopStyle": "solid",
+            "borderTopWidth": `${ x }px`,
         }
 
         selectors[`brdr${ x }--right`] = {
-            "border-right-style": "solid",
-            "border-right-width": `${ x }px`,
+            "borderRightStyle": "solid",
+            "borderRightWidth": `${ x }px`,
         }
 
         selectors[`brdr${ x }--bottom`] = {
-            "border-bottom-style": "solid",
-            "border-bottom-width": `${ x }px`,
+            "borderBottomStyle": "solid",
+            "borderBottomWidth": `${ x }px`,
         }
 
         selectors[`brdr${ x }--left`] = {
-            "border-left-style": "solid",
-            "border-left-width": `${ x }px`,
+            "borderLeftStyle": "solid",
+            "borderLeftWidth": `${ x }px`,
         }
     }
 

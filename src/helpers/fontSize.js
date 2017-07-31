@@ -15,12 +15,12 @@ export default function fontSize({ helpers: { fontSize: { limit, incrementBy, re
      * Font Sizes
      */
     selectors["ft1"] = {
-        "font-size": "1rem"
+        "fontSize": "1rem"
     }
 
     for (let x = 2; x <= limit; x++) {
         selectors[`ft${ x }`] = {
-            "font-size": `${ 1 + (x - 1) * incrementBy }rem`
+            "fontSize": `${ 1 + (x - 1) * incrementBy }rem`
         }
     }
 

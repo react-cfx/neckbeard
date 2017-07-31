@@ -15,16 +15,16 @@ export default function colors({ helpers: { colors: { responsive } }, colors, br
      * Colors
      */
     // Background colors
-    selectors["bgb"] = { "background-color": colors.b }
-    selectors["bgw"] = { "background-color": colors.w }
-    selectors["bg1"] = { "background-color": colors.brandColor }
-    selectors["bg2"] = { "background-color": colors.brandColor2 }
-    selectors["bg3"] = { "background-color": colors.brandColor3 }
-    selectors["bg4"] = { "background-color": colors.brandColor4 }
-    selectors["bg5"] = { "background-color": colors.brandColor5 }
-    selectors["bgsuccess"] = { "background-color": colors.success }
-    selectors["bgwarning"] = { "background-color": colors.warning }
-    selectors["bgdanger"] = { "background-color": colors.danger }
+    selectors["bgb"] = { "backgroundColor": colors.b }
+    selectors["bgw"] = { "backgroundColor": colors.w }
+    selectors["bg1"] = { "backgroundColor": colors.brandColor }
+    selectors["bg2"] = { "backgroundColor": colors.brandColor2 }
+    selectors["bg3"] = { "backgroundColor": colors.brandColor3 }
+    selectors["bg4"] = { "backgroundColor": colors.brandColor4 }
+    selectors["bg5"] = { "backgroundColor": colors.brandColor5 }
+    selectors["bgsuccess"] = { "backgroundColor": colors.success }
+    selectors["bgwarning"] = { "backgroundColor": colors.warning }
+    selectors["bgdanger"] = { "backgroundColor": colors.danger }
 
     // Text colors
     selectors["tcb"] = { "color": colors.b }
@@ -40,29 +40,29 @@ export default function colors({ helpers: { colors: { responsive } }, colors, br
 
 
     // Border colors
-    selectors["bcb"] = { "border-color": colors.b }
-    selectors["bcw"] = { "border-color": colors.w }
-    selectors["bc1"] = { "border-color": colors.brandColor }
-    selectors["bc2"] = { "border-color": colors.brandColor2 }
-    selectors["bc3"] = { "border-color": colors.brandColor3 }
-    selectors["bc4"] = { "border-color": colors.brandColor4 }
-    selectors["bc5"] = { "border-color": colors.brandColor5 }
-    selectors["bcsuccess"] = { "border-color": colors.success }
-    selectors["bcwarning"] = { "border-color": colors.warning }
-    selectors["bcdanger"] = { "border-color": colors.danger }
+    selectors["bcb"] = { "borderColor": colors.b }
+    selectors["bcw"] = { "borderColor": colors.w }
+    selectors["bc1"] = { "borderColor": colors.brandColor }
+    selectors["bc2"] = { "borderColor": colors.brandColor2 }
+    selectors["bc3"] = { "borderColor": colors.brandColor3 }
+    selectors["bc4"] = { "borderColor": colors.brandColor4 }
+    selectors["bc5"] = { "borderColor": colors.brandColor5 }
+    selectors["bcsuccess"] = { "borderColor": colors.success }
+    selectors["bcwarning"] = { "borderColor": colors.warning }
+    selectors["bcdanger"] = { "borderColor": colors.danger }
 
     // Background Colors Gray
     // ------------------------------------------------------------------------------------ */
-    selectors["bgg05"] = { "background-color": colors.g05 }
-    selectors["bgg10"] = { "background-color": colors.g10 }
-    selectors["bgg20"] = { "background-color": colors.g20 }
-    selectors["bgg30"] = { "background-color": colors.g30 }
-    selectors["bgg40"] = { "background-color": colors.g40 }
-    selectors["bgg50"] = { "background-color": colors.g50 }
-    selectors["bgg60"] = { "background-color": colors.g60 }
-    selectors["bgg70"] = { "background-color": colors.g70 }
-    selectors["bgg80"] = { "background-color": colors.g80 }
-    selectors["bgg90"] = { "background-color": colors.g90 }
+    selectors["bgg05"] = { "backgroundColor": colors.g05 }
+    selectors["bgg10"] = { "backgroundColor": colors.g10 }
+    selectors["bgg20"] = { "backgroundColor": colors.g20 }
+    selectors["bgg30"] = { "backgroundColor": colors.g30 }
+    selectors["bgg40"] = { "backgroundColor": colors.g40 }
+    selectors["bgg50"] = { "backgroundColor": colors.g50 }
+    selectors["bgg60"] = { "backgroundColor": colors.g60 }
+    selectors["bgg70"] = { "backgroundColor": colors.g70 }
+    selectors["bgg80"] = { "backgroundColor": colors.g80 }
+    selectors["bgg90"] = { "backgroundColor": colors.g90 }
 
     // Text Colors Gray
     // ------------------------------------------------------------------------------------ */

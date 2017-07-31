@@ -9,7 +9,7 @@ import addMediaQueries from '../utilities/addMediaQueries'
  * @return {object}
  */
 export default function borderRadius({ helpers: { borderRadius: { limit, incrementBy, responsive } }, breakpoints }) {
-    
+
     let selectors = {}
     let media = {}
 
@@ -22,29 +22,29 @@ export default function borderRadius({ helpers: { borderRadius: { limit, increme
         }
 
         selectors[`brr${ x }`] = {
-            "border-top-right": `${ x }px`,
-            "border-bottom-right": `${ x }px`
+            "borderTopRight": `${ x }px`,
+            "borderBottomRight": `${ x }px`
         }
 
         selectors[`blr${ x }`] = {
-            "border-top-left": `${ x }px`,
-            "border-bottom-left": `${ x }px`
+            "borderTopLeft": `${ x }px`,
+            "borderBottomLeft": `${ x }px`
         }
 
         selectors[`btlr${ x }`] = {
-            "border-top-left": `${ x }px`
+            "borderTopLeft": `${ x }px`
         }
 
         selectors[`btrr${ x }`] = {
-            "border-top-right": `${ x }px`
+            "borderTopRight": `${ x }px`
         }
 
         selectors[`bblr${ x }`] = {
-            "border-bottom-left": `${ x }px`
+            "borderBottomLeft": `${ x }px`
         }
 
         selectors[`bbrr${ x }`] = {
-            "border-bottom-right": `${ x }px`
+            "borderBottomRight": `${ x }px`
         }
     }
 

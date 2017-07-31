@@ -19,39 +19,39 @@ export default function flex({ helpers: { flex: { responsive } }, breakpoints })
     selectors["flex-grow"] = { "flex-grow": 1 }
 
     // Flex Basis Helpers
-    selectors["fb100"] = { "flex-basis": "100%" }
+    selectors["fb100"] = { "flexBasis": "100%" }
 
     // Flex Direction Helpers
-    selectors["fdr"] = { "flex-direction": "row" }
-    selectors["fdrr"] = { "flex-direction": "row-reverse" }
-    selectors["fdc"] = { "flex-direction": "column" }
-    selectors["fdcr"] = { "flex-direction": "column-reverse" }
+    selectors["fdr"] = { "flexDirection": "row" }
+    selectors["fdrr"] = { "flexDirection": "row-reverse" }
+    selectors["fdc"] = { "flexDirection": "column" }
+    selectors["fdcr"] = { "flexDirection": "column-reverse" }
 
     // Flex Wrap Helpers
-    selectors["fwn"] = { "flex-wrap": "nowrap" }
-    selectors["fww"] = { "flex-wrap": "wrap" }
-    selectors["fwr"] = { "flex-wrap": "wrap-reverse" }
+    selectors["fwn"] = { "flexWrap": "nowrap" }
+    selectors["fww"] = { "flexWrap": "wrap" }
+    selectors["fwr"] = { "flexWrap": "wrap-reverse" }
 
     // Justification Helpers
-    selectors["jcc"] = { "justify-content": "center" }
-    selectors["jcsb"] = { "justify-content": "space-between" }
-    selectors["jcsa"] = { "justify-content": "space-around" }
-    selectors["jcfs"] = { "justify-content": "flex-start" }
-    selectors["jcfe"] = { "justify-content": "flex-end" }
+    selectors["jcc"] = { "justifyContent": "center" }
+    selectors["jcsb"] = { "justifyContent": "space-between" }
+    selectors["jcsa"] = { "justifyContent": "space-around" }
+    selectors["jcfs"] = { "justifyContent": "flex-start" }
+    selectors["jcfe"] = { "justifyContent": "flex-end" }
 
     // Align Items Helpers
-    selectors["aic"] = { "align-items": "center" }
-    selectors["aifs"] = { "align-items": "flex-start" }
-    selectors["aife"] = { "align-items": "flex-end" }
-    selectors["ais"] = { "align-items": "stretch" }
-    selectors["aib"] = { "align-items": "baseline" }
+    selectors["aic"] = { "alignItems": "center" }
+    selectors["aifs"] = { "alignItems": "flex-start" }
+    selectors["aife"] = { "alignItems": "flex-end" }
+    selectors["ais"] = { "alignItems": "stretch" }
+    selectors["aib"] = { "alignItems": "baseline" }
 
     // Align Content Helpers
-    selectors["acc"] = { "align-content": "center" }
-    selectors["acfs"] = { "align-content": "flex-start" }
-    selectors["acfe"] = { "align-content": "flex-end" }
-    selectors["acs"] = { "align-content": "stretch" }
-    selectors["acb"] = { "align-content": "baseline" }
+    selectors["acc"] = { "alignContent": "center" }
+    selectors["acfs"] = { "alignContent": "flex-start" }
+    selectors["acfe"] = { "alignContent": "flex-end" }
+    selectors["acs"] = { "alignContent": "stretch" }
+    selectors["acb"] = { "alignContent": "baseline" }
 
 
     /**
